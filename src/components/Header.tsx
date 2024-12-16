@@ -7,6 +7,7 @@ export const Header = () => {
     <div className="text-center">
       <FadeIn delay={200}>
         <Sparkles className="w-12 h-12 mx-auto text-amber-300 mb-6 animate-float" />
+        <p className="text-2xl font-script mt-2 text-amber-300">Haz click en cualquier parte</p>
       </FadeIn>
       
       <FadeIn delay={400}>
@@ -23,6 +24,7 @@ export const Header = () => {
       
       <FadeIn delay={800}>
         <div className="w-24 h-1 bg-amber-300 mx-auto mb-12 rounded-full"></div>
+        
       </FadeIn>
     </div>
   );
